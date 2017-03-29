@@ -1,0 +1,35 @@
+{
+  "name": "new_york_times_movie_reviews",
+  "private": true,
+  "version": "1.0.0",
+  "description": "New York Times Movie Reviews App",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "browserify index.js -o build.js",
+    "lint": "xo",
+    "test": "npm run build && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mimaaa/NYTReviews.git"
+  },
+  "author": "Mirza van Meerwijk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mimaaa/NYTReviews/issues"
+  },
+  "homepage": "https://github.com/Mimaaa/NYTReviews#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "nodemon": "^1.11.0",
+    "xo": "^0.18.1"
+  }
+}
