@@ -5,7 +5,7 @@
   "description": "New York Times Movie Reviews App",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon app.js",
     "build": "browserify index.js -o build.js",
     "lint": "xo",
     "test": "npm run build && npm run lint"
