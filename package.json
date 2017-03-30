@@ -25,7 +25,8 @@
     "dotenv": "^4.0.0",
     "express": "^4.15.2",
     "express-handlebars": "^3.0.0",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "uniq": "^1.0.1"
   },
   "devDependencies": {
     "browser-sync": "^2.18.8",
