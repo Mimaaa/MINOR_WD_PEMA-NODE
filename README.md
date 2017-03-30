@@ -12,7 +12,7 @@ You can search for a movie and the app gives you some extra information about th
 
 ## How to install the project?
 - Download/clone the repo and run the `npm install` command
-- Go to your [localhost](http://localhost:3000)
+- Go to your [localhost](localhost:3000)
 - Voila
 
 ## License
