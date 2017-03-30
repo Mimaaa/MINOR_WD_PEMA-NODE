@@ -15,6 +15,26 @@ You can search for a movie and the app gives you some extra information about th
 - Go to your [localhost](http://localhost:3000)
 - Voila
 
+## Performance Increase
+
+### Before doing anything regarding Performance
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_PEMA-NODE/blob/master/readme_img/before1.png "Before Optimizing Dev Tools")
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_PEMA-NODE/blob/master/readme_img/before2.png "Before Optimizing Speed Insights")
+
+### After Enabling Compression
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_PEMA-NODE/blob/master/readme_img/aftercompress1.png "After Enabling Compression Dev Tools")
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_PEMA-NODE/blob/master/readme_img/aftercompress2.png "After Enabling Compression Speed Insights")
+
+### After Minifying CSS & Critical CSS
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_PEMA-NODE/blob/master/readme_img/aftercss1.png "After Minifying & Critical CSS Dev Tools")
+
+![alt text](https://github.com/Mimaaa/MINOR_WD_PEMA-NODE/blob/master/readme_img/aftercss2.png "AAfter Minifying & Critical CSS Speed Insights")
+
 ## License
 
 MIT
