@@ -17,6 +17,8 @@ You can search for a movie and the app gives you some extra information about th
 
 ## Performance Increase
 
+The Dev Tools tests were done with disabled cache and on a Regular 2G throttle.
+
 ### Before doing anything regarding Performance
 
 ![alt text](https://github.com/Mimaaa/MINOR_WD_PEMA-NODE/blob/master/readme_img/before1.png "Before Optimizing Dev Tools")
