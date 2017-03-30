@@ -1,18 +1,14 @@
-<h1>Movie Reviews</h1>
-<form action="/" method="post">
-  <h2>Look up your movie!</h2>
-  <input type="text" name="query">
-  <input type="submit">
-</form>
-{{#each data.results}}
-<a href="/movie/{{id}}">
-  <article>
-    <header>
-      <h1>{{title}}</h1>
-    </header>
-    <ul>
-      <li>{{vote_average}}</li>
-    </ul>
-  </article>
-</a>
-{{/each}}
+<div class="home">
+  {{#each data.results}}
+  <a href="/movie/{{id}}">
+    <section>
+      <header>
+        <img src="https://image.tmdb.org/t/p/w500{{poster_path}}"/>
+        <h1>{{original_title}}</h1>
+      </header>
+      <p>{{overview}}</p>
+      <p>{{vote_average}}</p>
+    </section>
+  </a>
+  {{/each}}
+</div>

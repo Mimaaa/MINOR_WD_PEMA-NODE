@@ -1,8 +1,8 @@
 {
-  "name": "new_york_times_movie_reviews",
+  "name": "movies-app",
   "private": true,
   "version": "1.0.0",
-  "description": "New York Times Movie Reviews App",
+  "description": "Movies App",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mimaaa/NYTReviews.git"
+    "url": "git+https://github.com/Mimaaa/MINOR_WD_PEMA-NODE.git"
   },
   "author": "Mirza van Meerwijk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Mimaaa/NYTReviews/issues"
+    "url": "https://github.com/Mimaaa/MINOR_WD_PEMA-NODE/issues"
   },
-  "homepage": "https://github.com/Mimaaa/NYTReviews#readme",
+  "homepage": "https://github.com/Mimaaa/MINOR_WD_PEMA-NODE#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
     "dotenv": "^4.0.0",
@@ -28,6 +28,7 @@
     "request": "^2.81.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.8",
     "browserify": "^14.1.0",
     "nodemon": "^1.11.0",
     "xo": "^0.18.1"
