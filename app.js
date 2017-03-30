@@ -21,11 +21,18 @@ app.get('/', function (req, res) {
 });
 
 app.post('/', function(req, res) {
-  var query = req.body.query;
-  var searchUrl = api_url + '?query=' + query + '&api-key=' + api_key;
+  var searchUrl = api_url + '/search/movie' + '?api_key=' + api_key + '&query=' + req.body.query;
   request(searchUrl, function (error, response, body) {
     res.locals.data = JSON.parse(body);
     res.render('home');
+  });
+});
+
+app.get('/movie/:id', function (req, res) {
+  var movieUrl = api_url + '/movie/' + req.params.id + '?api_key=' + api_key;
+  request(movieUrl, function (error, response, body) {
+    res.locals.data = JSON.parse(body);
+    res.render('movie');
   });
 });
 
