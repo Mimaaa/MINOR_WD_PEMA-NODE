@@ -64,7 +64,7 @@ form {
   margin: 0 auto;
 }
 
-h1 {
+form h1 {
   margin: 1.5rem;
   text-align: center;
   font-size: 1.7em;
@@ -174,7 +174,7 @@ footer p {
 /*TABLETS*/
 @media only screen and (min-device-width:768px) and (max-device-width:1224px) {
   .movie header {
-    width: 35%;
+    width: 30%;
   }
 
   .flex {
@@ -186,7 +186,7 @@ footer p {
 /*DESKTOPS AND LAPTOPS*/
 @media only screen and (min-width:1224px) {
   .movie header {
-    width: 35%;
+    width: 30%;
   }
 
   .flex {
