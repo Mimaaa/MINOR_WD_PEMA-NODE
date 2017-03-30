@@ -17,7 +17,7 @@ You can search for a movie and the app gives you some extra information about th
 
 ## Performance Increase
 
-The Dev Tools tests were done with disabled cache and on a Regular 2G throttle.
+The Dev Tools tests were done with disabled cache and with a Regular 2G throttle.
 
 ### Before doing anything regarding Performance
 
