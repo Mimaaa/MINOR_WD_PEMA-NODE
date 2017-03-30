@@ -1,6 +1,6 @@
 # MovieYAY App
 
-This application is made for the Web Development Minor.
+This application is made for the Web Development Minor: Performance Matters course.
 
 ## What does it do?
 - NodeJS & Express for server-side rendering
