@@ -1,10 +1,16 @@
 var express = require('express');
+var compression = require('compression');
 var exphbs = require ('express-handlebars');
 var dotenv = require ('dotenv').config();
 var request = require ('request');
 var bodyParser = require ('body-parser');
 
 var app = express();
+
+app.use(compression({
+    threshold: 0,
+    filter: () => true,
+}));
 
 var api_key = process.env.API_KEY;
 var api_url = process.env.API_URL;
