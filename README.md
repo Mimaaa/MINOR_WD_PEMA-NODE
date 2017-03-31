@@ -7,7 +7,7 @@ This application is made for the Web Development Minor: Performance Matters cour
 - Handlebars to handle the templating
 - Browserify to bundle the Javascript
 - The Movie Database API to request movie info
-- Installed a basic Service Worker for offline handling
+- Installed a basic Service Worker for offline handling & caching with the help of this [lovely lady](https://www.youtube.com/watch?v=BfL3pprhnms)
 
 You can search for a movie and the app gives you some extra information about the movie.
 
