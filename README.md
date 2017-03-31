@@ -48,6 +48,10 @@ The Dev Tools tests were done with disabled cache and with a Regular 2G throttle
 
 Didn't got the 100 because of a Ngrok bug?
 
+## API KEY
+
+If you want to test the app you can get your own key [right here](https://www.themoviedb.org/documentation/api). The API URL is `https://api.themoviedb.org/3`.
+
 ## License
 
 MIT
