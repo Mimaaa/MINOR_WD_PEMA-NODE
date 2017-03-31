@@ -46,6 +46,8 @@ The Dev Tools tests were done with disabled cache and with a Regular 2G throttle
 
 ![alt text](https://github.com/Mimaaa/MINOR_WD_PEMA-NODE/blob/master/readme_img/aftercss2.png "AAfter Minifying & Critical CSS Speed Insights")
 
+Didn't got the 100 because of a Ngrok bug?
+
 ## License
 
 MIT
