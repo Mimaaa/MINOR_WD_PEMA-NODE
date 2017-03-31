@@ -21,7 +21,7 @@ You can search for a movie and the app gives you some extra information about th
 - `npm run watch` to watch the index.js so it automatically builds the bundle.js
 - `npm run lint` to lint your code with XO
 - `npm run expose` to create a public URL to a local webserver
-- `npm run test` to build the bundle with Browserify and run the linter with XO
+- `npm run test` to build the bundle with Browserify and lint the code with XO
 
 ## Performance Increase
 
