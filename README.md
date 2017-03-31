@@ -7,6 +7,7 @@ This application is made for the Web Development Minor: Performance Matters cour
 - Handlebars to handle the templating
 - Browserify to bundle the Javascript
 - The Movie Database API to request movie info
+- Installed a basic Service Worker for offline handling
 
 You can search for a movie and the app gives you some extra information about the movie.
 
