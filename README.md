@@ -12,8 +12,16 @@ You can search for a movie and the app gives you some extra information about th
 
 ## How to install the project?
 - Download/clone the repo and run the `npm install` command
+- Run the `npm start` command to start the server
 - Go to your [localhost](http://localhost:3000)
 - Voila
+
+## Other commands
+- `npm run build` to build the bundle.js with Browserify
+- `npm run watch` to watch the index.js so it automatically builds the bundle.js
+- `npm run lint` to lint your code with XO
+- `npm run expose` to create a public URL to a local webserver
+- `npm run test` to build the bundle with Browserify and run the linter with XO
 
 ## Performance Increase
 
