@@ -57,6 +57,10 @@ Didn't got the 100 because of a Ngrok bug?
 
 If you want to test the app you can get your own key [right here](https://www.themoviedb.org/documentation/api). The API URL is `https://api.themoviedb.org/3`.
 
+## TO-DO
+- Fix Service Worker issue
+- Add more JavaScript enhancements
+
 ## License
 
 MIT
