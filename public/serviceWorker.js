@@ -3,11 +3,10 @@ var cacheName = 'v1';
 
 // Default files to always cache
 var cacheFiles = [
-	'./',
 	'./js/bundle.js',
 	'./css/reset.css',
 	'./css/styles.css',
-]
+];
 
 
 self.addEventListener('install', function(e) {
@@ -76,7 +75,7 @@ self.addEventListener('fetch', function(e) {
 					.then(function(response) {
 
 						if ( !response ) {
-							console.log("[ServiceWorker] No response from fetch ")
+							console.log("[ServiceWorker] No response from fetch ");
 							return response;
 						}
 

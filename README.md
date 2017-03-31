@@ -17,6 +17,11 @@ You can search for a movie and the app gives you some extra information about th
 - Go to your [localhost](http://localhost:3000)
 - Voila
 
+## Service Worker - important
+The Service Worker is not enabled by default because of [this problem](https://stackoverflow.com/questions/35270702/can-service-workers-cache-post-requests) (POST requests won't work).
+
+If you want to enable the Service Worker, just uncomment the code in the index.js file.
+
 ## Other commands
 - `npm run build` to build the bundle.js with Browserify
 - `npm run watch` to watch the index.js so it automatically builds the bundle.js
