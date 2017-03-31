@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Mimaaa/MINOR_WD_PEMA-NODE#readme",
   "dependencies": {
+    "awesomplete": "^1.1.1",
     "body-parser": "^1.17.1",
     "compression": "^1.6.2",
     "dotenv": "^4.0.0",

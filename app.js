@@ -5,6 +5,7 @@ var exphbs = require ('express-handlebars');
 var dotenv = require ('dotenv').config();
 var request = require ('request');
 var bodyParser = require ('body-parser');
+var awesomplete = require ('awesomplete');
 
 // Use express
 var app = express();
